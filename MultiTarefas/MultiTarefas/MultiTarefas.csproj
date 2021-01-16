@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{309642BB-3C4F-4118-BF36-DC23262CA842}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsApplication1</RootNamespace>
+    <AssemblyName>MultiTarefas</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Area.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Area.Designer.cs">
+      <DependentUpon>Area.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bhaskara.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bhaskara.Designer.cs">
+      <DependentUpon>Bhaskara.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CF.Designer.cs">
+      <DependentUpon>CF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Divi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Divi.Designer.cs">
+      <DependentUpon>Divi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mais.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mais.Designer.cs">
+      <DependentUpon>Mais.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menos.Designer.cs">
+      <DependentUpon>Menos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Multi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Multi.Designer.cs">
+      <DependentUpon>Multi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pitagoras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pitagoras.Designer.cs">
+      <DependentUpon>Pitagoras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Raiz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Raiz.Designer.cs">
+      <DependentUpon>Raiz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Volume.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Volume.Designer.cs">
+      <DependentUpon>Volume.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Area.resx">
+      <DependentUpon>Area.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bhaskara.resx">
+      <DependentUpon>Bhaskara.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CF.resx">
+      <DependentUpon>CF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Divi.resx">
+      <DependentUpon>Divi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mais.resx">
+      <DependentUpon>Mais.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menos.resx">
+      <DependentUpon>Menos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Multi.resx">
+      <DependentUpon>Multi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pitagoras.resx">
+      <DependentUpon>Pitagoras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Raiz.resx">
+      <DependentUpon>Raiz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Volume.resx">
+      <DependentUpon>Volume.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
